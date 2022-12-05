@@ -24,7 +24,7 @@ the php module will :
 
   As the suite is rapidly handling big numbers in this example we limited the occurences to 69 as it is the largest number usable before getting an error, this is for :
   
-  OS: Linux Ubuntu 22.10 aarch64 
+## OS: Linux Ubuntu 22.10 aarch64 
 -----------------------------------------------------------
  PHP_INT_SIZE 8 for 64 bit
  PHP_INT_MAX  9223372036854775807

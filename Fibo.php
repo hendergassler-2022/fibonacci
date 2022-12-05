@@ -73,6 +73,7 @@
   $num=69;
   $n=1;
   $moins2=1;
+  $courant=0;
   printf ("      F[%03s] : %18s %10s  \n", $n , $courant ,"prime");
   $n=$n+1;
   $moins1=1;
