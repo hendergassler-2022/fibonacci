@@ -1,15 +1,17 @@
-# bubbleSort_os
-Sort written in php to sort in ascending order a random number of integers
+# Fibonacci_os
+
+Compute module to implement the Fibonacci Suite written in php.
 
 # explanation
 
-./cmdline.sh will call on commandline the haker_001.php with no parameters.
+./Fibo.php will compute all occurences of the Fibonacci suite from F[0] to max possible occurence regarding the OS and architecture on which it runs.
 
 the php module will :
 
-  generate a list of random numbers ( int )
+  check the CEC OS/architecture to fix the reference
+  compute the latest occurence of the suite, ( F[0] := 0; F[1] := 1; F[2] := 2; F[n] := F[n-1] + F[n-2] ), see also https://en.wikipedia.org/wiki/Fibonacci_prime 
+  for each occurence check if the new occurence is a prime number or not 
   start sorting them ascendingly 
-  clean duplicates
-  
+    
   display then sorted with unique values.
   
